@@ -1,4 +1,4 @@
-import { View, ImageSourcePropType, Image, Animated } from 'react-native'
+import { View, ImageSourcePropType, Animated } from 'react-native'
 import React from 'react'
 import { singleItemStyles } from './styles'
 import { DisplayText } from 'components/Text/DisplayText'
@@ -11,8 +11,6 @@ type Props = {
   index: number
   scrollX: any
 }
-
-const AnimatedDisplayText = Animated.createAnimatedComponent(DisplayText)
 
 const SingleItem = ({ imageUri, description, name, scrollX, index }: Props) => {
   // prev slide, current slide, next slide

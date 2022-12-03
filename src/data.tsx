@@ -2,59 +2,58 @@ import { IData } from 'utils/types/DataType'
 
 const DATA: IData[] = [
   {
-    name: 'Emma',
+    name: 'RB0707S',
     description:
-      'Searching for style with brow-raising attitude? Enter the Clubround-inspired Panthos, a timeless yet modern, matte and shiny pair of showstoppers.',
+      'Ultracool shape and sharp look of this acetate frame is a nod to the past in forward motion.',
     key: 1,
     type: 'High Bridge Fit',
     imageUri: require('assets/images/ray_green.webp'),
-    color: '#636D58'
+    color: '#0A0A0A'
   },
   {
-    name: 'Blaze',
+    name: '875F2D',
     description:
       'A daring contemporary style for urban style hunters who love to face life in style: Ray-Ban introduces the Blaze evolution of the well-known RB2180.',
     key: 2,
     type: 'Low Bridge Fit',
     imageUri: require('assets/images/blaze.webp'),
-    color: '#636D58'
+    color: '#875F2D'
   },
   {
-    name: 'Erika',
+    name: 'RB4101',
     description:
       'Ray-Ban Erika RB4171 sunglasses are the perfect accessory to complete any look. Featuring both classic and bright fronts.',
     key: 3,
     type: 'Mid Bridge Fit',
     imageUri: require('assets/images/erika.webp'),
-    color: '#AAC5CE'
+    color: '#9D6680'
   },
   {
-    name: 'Black Ray',
-    description:
-      'Throwback cool meets modern technology with a super fine double bridge metal for just the right amount of style.',
+    name: 'RB3547 Oval',
+    description: `The iconic styles that make Ray-Ban's history return with new colorful twsists.`,
     key: 4,
     type: 'Low Bridge Fit',
     imageUri: require('assets/images/ray_black.webp'),
-    color: '#58585D'
+    color: '#72512d'
   },
   {
-    name: 'rb4230',
+    name: 'RB2140',
     description:
-      'Throwback cool meets modern technology with a super fine double bridge metal for just the right amount of style.',
+      'From the rock revolution of the ‘60s to the forefront of hip-hop culture',
     key: 5,
     type: 'Low Bridge Fit',
     imageUri: require('assets/images/rb4230.webp'),
-    color: '#725033'
+    color: '#bd3437'
+  },
+  {
+    name: 'RB2140',
+    description:
+      'Bold, bright and badass. The Colourblock Collection dives into the spirit with carefree confidence.',
+    key: 6,
+    type: 'Low Bridge Fit',
+    imageUri: require('assets/images/ray_classic_green.webp'),
+    color: '#597B69'
   }
-  //   {
-  //     name: 'Black Ray',
-  //     description:
-  //       'Throwback cool meets modern technology with a super fine double bridge metal for just the right amount of style. Go with warm dark brown and gray gradients for a traditional vibe, or try polar green and mirrored shades if you’re feeling a more modern look. Choose gradient, polar green or modern mirror shades, then match with a classic, contemporary or futuristic frame.',
-  //     key: 5,
-  //     type: 'Low Bridge Fit',
-  //     imageUri: require('assets/images/ray_black.webp'),
-  //     color: '#58585D'
-  //   }
 ]
 
 export { DATA }
